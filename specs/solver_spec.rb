@@ -15,7 +15,7 @@ describe Solver do
     end
 
     it 'should raise an exception when a negative number is passed' do
-      expect { subject.factorial(-4) }.to raise_error 'Input must be zero or a positive number'
+      expect { subject.factorial(-4) }.to raise_exception 'Input must be zero or a positive number'
     end
   end
   context '#reverse' do
