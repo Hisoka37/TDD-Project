@@ -23,6 +23,21 @@ describe Solver do
       expect(subject.reverse('hello')).to eq 'olleh'
     end
   end
+  context '#fizzbuzz' do
+    it 'should return fizz when Number is divisible by 3' do
+      expect(subject.fizzbuzz(3)).eq 'fizz'
+    end
+    it 'should return buzz when Number is divisible by 5' do
+      expect(subject.fizzbuzz(25)).eq 'buzz'
+    end
+    it 'should return fizzbuzz when Number is divisible by 3 and 5' do
+      expect(subject.fizzbuzz(15)).eq 'fizz'
+    end
+    it 'should return Number as string when Number is not divisible by 3 or 5' do
+      expect(subject.fizzbuzz(7)).eq '7'
+    end
+  end
+
 end
 
 
