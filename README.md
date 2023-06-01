@@ -23,7 +23,7 @@
 > **TDD :** stands for Test-Driven Development. It is a software development methodology that focuses on writing automated tests before writing the actual code.
 >
 > In this project we implemented a class with some methods respecting the test-driven development (TDD)
-> 
+>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,20 +67,20 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-```sh 
+```sh
 git clone https://github.com/Hisoka37/TDD-Project.git
   ```
-  ```sh 
+  ```sh
   cd TDD-project
   ```
-  ```sh 
+  ```sh
   bundle install
   ```
   ```sh
   gem install rspec
   ```
 ### Run Tests
-  ```sh 
+  ```sh
   rspec spec solver_spec.rb
   ```
 
@@ -108,7 +108,7 @@ git clone https://github.com/Hisoka37/TDD-Project.git
 - GitHub: [@lengushuru](https://github.com/lengushuru)
 - Twitter: [@lengushuru](https://twitter.com/lengush)
 - LinkedIn: [Lengushuru Charles](https://linkedin.com/in/lengushuru)
-  
+
 # 🔭 Future Features:
 - Add more advanced Ruby functions.
 - Build wonderful UI.

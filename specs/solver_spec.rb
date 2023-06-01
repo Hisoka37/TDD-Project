@@ -18,4 +18,11 @@ describe Solver do
       expect{subject.factorial(-4)}.to raise_error 'Input must be zero or a positive number'
     end
   end
+  context '#reverse' do
+    it 'should reverse the given word' do
+      expect(subject.reverse('hello')).to eq 'olleh'
+    end
+  end
 end
+
+
